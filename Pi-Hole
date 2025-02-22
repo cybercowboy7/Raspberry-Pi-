@@ -1,0 +1,18 @@
+Utilization:
+  - Using it as a DNS sinkhole as well as safe browsing capabilities
+
+  - Possibly will use as a DHCP server as well down the road.
+
+Installation: Headless R-PI
+
+  - I installed Raspberry Pi OS (previously Raspian) first in and I made my R-PI a headless configuration.
+
+  - Ensure SSH is enabled in the configuration files prior to boot
+
+  - Once booted, I nmapped my network (nmap -p22 192.168.xx.xx) to see which IP address was assigned from my DHCP server.
+
+Installation: Pi-Hole
+
+  - Once I found the IP address, I was able to SSH into the R-PI and download Pi-hole utilizing their documentation for install found here: https://docs.pi-hole.net/main/basic-install/
+
+  - Once downloaded, 
